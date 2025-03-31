@@ -1,7 +1,7 @@
 #root {
-  max-width: 1280px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0rem 0rem;
   text-align: center;
 }
 
@@ -39,4 +39,22 @@
 
 .read-the-docs {
   color: #888;
+}
+.products-grid {
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  display: flex;
+}
+.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.main-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
 }

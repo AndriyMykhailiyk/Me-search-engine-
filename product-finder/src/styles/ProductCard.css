@@ -1,0 +1,74 @@
+.product-card {
+  background-color: azure;
+  margin-bottom: 40px;
+  color: black;
+  padding: 5px;
+  width: 50%;
+}
+
+/* Стилі для фільтра цін */
+.price-filter-container {
+  margin: 20px 0;
+  padding: 15px;
+  background: #f5f5f5;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.price-filter-container h4 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.price-range-display {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Стилі для карток товарів (якщо ще не додано) */
+.product-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+
+.product-info {
+  padding: 15px;
+}
+
+.product-info h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.price {
+  color: #e63946;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.buy-btn {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #3a8589;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.buy-btn:hover {
+  background-color: #2c6669;
+}

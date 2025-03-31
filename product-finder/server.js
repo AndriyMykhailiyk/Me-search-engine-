@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 app.post("/api/search", async (req, res) => {
-  const { query } = req.body;
+  const { query, page = 1, limit = 20 } = req.body;
 
   if (!query) {
     return res.status(400).json({ error: "Query parameter is required" });
